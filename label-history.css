@@ -1,0 +1,149 @@
+body{
+    background-image: url("img/label-bg-img.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container {
+	grid-area: container;
+	background: black;
+    height: auto;
+    margin: 10% 10%;
+    padding: 1% 1%;
+	border-radius: 10px;
+    color: white;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -160px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home{
+    top: 20px;
+    background-color: #144222;
+}
+
+#s1{
+    top: 80px;
+    background-color: #144222;
+}
+
+#s2{
+    top: 140px;
+    background-color: #144222;
+}
+
+#s3{
+    top: 200px;
+    background-color: #144222;
+}
+
+#s4{
+    top: 260px;
+    background-color: #144222;
+}
+
+#s5{
+    top: 320px;
+    background-color: #144222;
+}
+
+#s6{
+    top: 380px;
+    background-color: #144222;
+}
+
+#s7{
+    top: 440px;
+    background-color: #144222;
+}
+
+#s8{
+    top: 500px;
+    background-color: #144222;
+}
+
+#s9{
+    top: 560px;
+    background-color: #144222;
+}
+
+#s10{
+    top: 620px;
+    background-color: #144222;
+}
+
+#s11{
+    top: 680px;
+    background-color: #144222;
+}
+
+#s12{
+    top: 740px;
+    background-color: #144222;
+}
+
+#s13{
+    top: 800px;
+    background-color: #144222;
+}
+
+#s14{
+    top: 860px;
+    background-color: #144222;
+}
+
+#s15{
+    top: 920px;
+    background-color: #144222;
+}
+
+#s16{
+    top: 980px;
+    background-color: #144222;
+}
+
+#s17{
+    top: 1040px;
+    background-color: #144222;
+}
+
+#s18{
+    top: 1100px;
+    background-color: #144222;
+}
+
+#s19{
+    top: 1160px;
+    background-color: #144222;
+}
+
+#s20{
+    top: 1220px;
+    background-color: #144222;
+}
+
+#s21{
+    top: 1280px;
+    background-color: #144222;
+}
+

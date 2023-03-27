@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.header-title, .header-subtitle{
+    text-align: center;
+    padding-top: 95px;
+    color:white;
+}
+
+#header{
+    background-image: url(img/header-bg-img.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#nav{
+    border-top: 400px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.flex-container > div {
+    background-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.flex-container>div:hover{
+    background-color: #3e8e41;
+}
+
+.label-history, .home, .about-us-class, .about-info{
+    text-decoration: none; 
+    color: white;
+}
+
+
+.article{
+    color: white;
+    float: left;
+    margin: 0 1.5%;
+    width: 70%;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    display: inherit;
+}
+
+.about-us{
+    color: white;
+    float: right;
+    margin: 0 1.5%;
+    padding: 10px;
+    width: 20%;
+    border: solid;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: 650px;
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #nav, .article, .about-us {
+      width: 100%;
+      float: left;
+    }
+    
+    .footer{
+      width: 100%;
+      margin-top: 10px;
+      float: left;
+    }
+    
+    
+}
+
+.map{
+    margin-left: 10vw;
+    border: 0; 
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vw;
+
+}
+
+.social{
+    color: white;
+    margin-left: 30vw;
+    text-align: left;
+}
+
+.facebook, .site{
+    margin-left: 10vw;
+    text-decoration: none;
+    color:white;
+}
+
+.icon-fb{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-muzeu{
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+
+
